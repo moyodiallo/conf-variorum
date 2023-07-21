@@ -1,0 +1,4 @@
+[submodule "variorum"]
+	path = variorum
+	url = https://github.com/LLNL/variorum.git
+	branch = dev
