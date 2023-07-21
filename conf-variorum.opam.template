@@ -1,0 +1,5 @@
+depexts: ["linux-headers"] {os-distribution = "alpine"}
+pin-depends: [
+  [ "conf-hwloc.dev" "git+https://github.com/moyodiallo/conf-hwloc#main" ]
+  [ "conf-jansson.dev" "git+https://github.com/moyodiallo/conf-jansson#main" ]
+]

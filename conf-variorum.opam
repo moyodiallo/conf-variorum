@@ -11,6 +11,8 @@ bug-reports: "https://github.com/moyodiallo/conf-jansson/issues"
 depends: [
   "ocaml"
   "conf-cmake"
+  "conf-hwloc"
+  "conf-jansson"
 ]
 build: [
   ["./build.sh"]
